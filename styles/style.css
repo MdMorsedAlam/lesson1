@@ -3,3 +3,68 @@
 * {
   font-family: "Work Sans", sans-serif;
 }
+/* default styls */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.btn-praimary {
+  font-size: 15px;
+  padding: 8px 10px;
+  color: #fff;
+  background-color: #ff900e;
+  border: none;
+  border-radius: 5px;
+}
+/* header styls */
+header {
+  background-color: rgba(255, 144, 14, 0.1);
+  padding: 0px 240px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav h3 {
+  font-size: 2rem;
+  color: #131313;
+  padding: 10px;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+  color: #424242;
+}
+/* banner styls */
+.banner {
+  padding: 50px 0px;
+}
+.banner-content {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.banner-title {
+  color: #131313;
+  font-size: 45px;
+}
+.banner-description {
+  font-size: 18px;
+  color: #727272;
+  margin: 20px 0px;
+}
+.banner img{
+    border-radius: 5px;
+}
