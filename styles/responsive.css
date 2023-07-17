@@ -21,6 +21,13 @@
     width: 100%;
   }
   /* facts responsive */
+  .facts-container {
+    padding: 50px;
+    text-align: center;
+  }
+  .facts-box-container {
+    flex-direction: column;
+  }
 }
 
 /* for tablet */
@@ -45,4 +52,11 @@
     width: 100%;
   }
   /* facts responsive */
+  .facts-container {
+    padding: 50px;
+    text-align: center;
+  }
+  .facts-box-container {
+    gap: 20px;
+  }
 }
