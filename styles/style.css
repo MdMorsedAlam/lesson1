@@ -154,6 +154,7 @@ main {
   position: absolute;
   left: -80px;
   bottom: -40px;
+  border-radius: 8px;
 }
 .feature-experience-title {
   font-weight: 700;
