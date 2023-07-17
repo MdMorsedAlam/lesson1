@@ -23,7 +23,7 @@ img {
 /* header styls */
 header {
   background-color: rgba(255, 144, 14, 0.1);
-  padding: 0px 240px;
+  padding: 0px 200px;
 }
 header nav {
   display: flex;
@@ -79,7 +79,7 @@ main {
   display: flex;
   gap: 30px;
   align-items: center;
-  padding: 50px 240px;
+  padding: 50px 200px;
 }
 .teams-img {
   display: grid;
@@ -110,7 +110,7 @@ main {
 /* teams section end */
 /* featur section start */
 .feature-container {
-  padding: 30px 240px;
+  padding: 30px 200px;
   display: flex;
   gap: 80px;
 }
@@ -170,7 +170,7 @@ main {
 /* featur section end */
 /* facts section start */
 .facts-container {
-  padding: 50px 240px;
+  padding: 50px 200px;
 }
 .facts-title {
   font-weight: 700;
@@ -210,3 +210,49 @@ main {
   color: #727272;
 }
 /* facts section end */
+/* sponspors section start */
+.sponsor-container {
+  padding: 40px 200px;
+}
+.sponspor-title {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #131313;
+  text-align: center;
+  padding: 30px 0px;
+}
+.sponspor-description {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #727272;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.sponspors-container {
+  display: flex;
+  justify-content: space-between;
+}
+.sponspors-img {
+  padding: 15px 30px;
+  text-align: center;
+}
+/* sponspors section end */
+/* footer section start */
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.footer-container {
+  padding: 0px 200px;
+  border-radius: 8px;
+}
+.footer-container p {
+  background-color: #fff4e7;
+  padding: 20px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #727272;
+  margin: 20px 0px;
+}
+/* footer section end */

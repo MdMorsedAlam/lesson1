@@ -28,6 +28,18 @@
   .facts-box-container {
     flex-direction: column;
   }
+  /* sponspors responsive */
+  .sponsor-container {
+    padding: 40px;
+  }
+  .sponspors-img {
+    padding: 10px 20px;
+    text-align: center;
+  }
+  /* footer responsive */
+  .footer-container {
+    padding: 0px;
+  }
 }
 
 /* for tablet */
@@ -59,4 +71,17 @@
   .facts-box-container {
     gap: 20px;
   }
+  /* sponspors responsive */
+  .sponsor-container {
+    padding: 40px;
+  }
+  .sponspors-img {
+    padding: 10px 20px;
+    text-align: center;
+  }
+  /* footer responsive */
+  .footer-container {
+    padding: 0px;
+  }
 }
+/* Thanks For Watch */
