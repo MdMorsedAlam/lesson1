@@ -12,7 +12,7 @@ img {
   width: 100%;
   height: 100%;
 }
-.btn-praimary {
+.btn-primary {
   font-size: 15px;
   padding: 8px 10px;
   color: #fff;
@@ -68,6 +68,42 @@ header nav ul li a {
 .banner img {
   border-radius: 5px;
 }
+/* header section end */
+/* main tag styles */
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+/* featur section start */
+.featur-container {
+  display: flex;
+  gap: 30px;
+  padding: 50px;
+  margin: 0px 80px;
+  align-items: center;
+}
+.featur-img {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px;
+  gap: 10px;
+}
+.featur-title {
+  font-size: 2rem;
+  color: #727272;
+}
+.featur-title .bg-black {
+  color: #131313;
+}
+.featur-title .bg-orange {
+  color: #ff900e;
+}
+.featur-description {
+  font-size: 16px;
+  color: #727272;
+  padding: 20px 0px;
+}
+/* featur section end */
 
 /* responsive styles */
 /* mobile device */
