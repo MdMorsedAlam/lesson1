@@ -19,6 +19,7 @@ img {
   background-color: #ff900e;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 /* header styls */
 header {
